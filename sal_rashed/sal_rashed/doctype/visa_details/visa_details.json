@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 21:46:14.267351",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "visa_end_date",
+  "visa_end_date_h",
+  "visa_location",
+  "column_break_zzvs",
+  "visa_no",
+  "visa_start_date",
+  "visa_start_date_h"
+ ],
+ "fields": [
+  {
+   "fieldname": "visa_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Visa End Date"
+  },
+  {
+   "fieldname": "visa_end_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Visa End Date H"
+  },
+  {
+   "fieldname": "visa_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visa Location"
+  },
+  {
+   "fieldname": "visa_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Visa No"
+  },
+  {
+   "fieldname": "column_break_zzvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "visa_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Visa Start Date"
+  },
+  {
+   "fieldname": "visa_start_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Visa Start Date H"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 13:30:22.023728",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "VISA Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

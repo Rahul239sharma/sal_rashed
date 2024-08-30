@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-22 22:51:31.189142",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "salary",
+  "insurance_salary",
+  "gross_salary",
+  "cost_code",
+  "others",
+  "mobile",
+  "pay_loc_code",
+  "monthly_house_amount",
+  "house_flag",
+  "house_date",
+  "column_break_mlfo",
+  "employee_cost",
+  "transport",
+  "nature",
+  "food",
+  "fuel",
+  "house_months",
+  "house_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "salary",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Salary"
+  },
+  {
+   "fieldname": "insurance_salary",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Insurance Salary"
+  },
+  {
+   "fieldname": "gross_salary",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Gross Salary"
+  },
+  {
+   "fieldname": "cost_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cost Code"
+  },
+  {
+   "fieldname": "others",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Others"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "pay_loc_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pay LOC Code"
+  },
+  {
+   "fieldname": "monthly_house_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Monthly House Amount"
+  },
+  {
+   "fieldname": "house_flag",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House Flag"
+  },
+  {
+   "fieldname": "house_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House Date"
+  },
+  {
+   "fieldname": "column_break_mlfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Employee Cost"
+  },
+  {
+   "fieldname": "transport",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transport"
+  },
+  {
+   "fieldname": "nature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nature"
+  },
+  {
+   "fieldname": "food",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Food"
+  },
+  {
+   "fieldname": "fuel",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fuel"
+  },
+  {
+   "fieldname": "house_months",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House Months"
+  },
+  {
+   "fieldname": "house_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 19:09:37.379400",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Cost Related Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

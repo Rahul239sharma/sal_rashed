@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 21:40:41.398597",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "insurence_number",
+  "insurence_date",
+  "insurence_date_h",
+  "column_break_oggg",
+  "insurence_end_date",
+  "insurence_end_date_h"
+ ],
+ "fields": [
+  {
+   "fieldname": "insurence_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Insurence Number"
+  },
+  {
+   "fieldname": "insurence_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Insurence Date"
+  },
+  {
+   "fieldname": "insurence_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Insurence Date H"
+  },
+  {
+   "fieldname": "insurence_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Insurence End Date"
+  },
+  {
+   "fieldname": "column_break_oggg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurence_end_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Insurence End Date H"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 13:25:28.946115",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Insurence",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-05-09 09:23:06.416375",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "name_arabic",
+  "sector"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name (English)",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sector",
+   "options": "Sector"
+  },
+  {
+   "fieldname": "name_arabic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name (Arabic)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-09 17:29:35.235585",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Division",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

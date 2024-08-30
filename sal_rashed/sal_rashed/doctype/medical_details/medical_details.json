@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 21:42:00.619547",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "medical_no",
+  "medical_end_date",
+  "medical_end_date_h",
+  "column_break_ivvy",
+  "medical_insurence",
+  "medical_start_date",
+  "medical_start_date_h"
+ ],
+ "fields": [
+  {
+   "fieldname": "medical_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medical No"
+  },
+  {
+   "fieldname": "medical_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Medical End Date"
+  },
+  {
+   "fieldname": "medical_end_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Medical End Date H"
+  },
+  {
+   "fieldname": "medical_insurence",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medical Insurence"
+  },
+  {
+   "fieldname": "column_break_ivvy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "medical_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Medical Start Date"
+  },
+  {
+   "fieldname": "medical_start_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Medical Start Date H"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 13:26:09.265607",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Medical Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

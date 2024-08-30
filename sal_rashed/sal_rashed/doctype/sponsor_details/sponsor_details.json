@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-22 21:24:04.716358",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sponsor_no",
+  "prv_sponsor_name",
+  "prv_sponsor_no",
+  "cf_sponsor_name",
+  "brand_name",
+  "cp_inc",
+  "cp_in_vac_desc",
+  "ticket_city",
+  "last_dcsn_date",
+  "contract_type",
+  "in_vac",
+  "tickets_every",
+  "city_code",
+  "lst_dcsn",
+  "column_break_gqnq",
+  "sponsor_change_date",
+  "sponsor_change_date_h",
+  "sponsor_status",
+  "cf_sponsor_status",
+  "cf_last_increase",
+  "ekama_job_desc",
+  "cp_last_incrs_period",
+  "tickets_number",
+  "ekama_job_code",
+  "cf_work_period",
+  "has_ticket",
+  "tickets_type",
+  "tickets"
+ ],
+ "fields": [
+  {
+   "fieldname": "sponsor_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sponsor No"
+  },
+  {
+   "fieldname": "prv_sponsor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PRV Sponsor Name"
+  },
+  {
+   "fieldname": "prv_sponsor_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PRV Sponsor No"
+  },
+  {
+   "fieldname": "cf_sponsor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CF Sponsor Name"
+  },
+  {
+   "fieldname": "column_break_gqnq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sponsor_change_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Sponsor Change Date"
+  },
+  {
+   "fieldname": "sponsor_change_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Sponsor Change Date H"
+  },
+  {
+   "fieldname": "sponsor_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sponsor Status"
+  },
+  {
+   "fieldname": "cf_sponsor_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CF Sponsor Status"
+  },
+  {
+   "fieldname": "brand_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Brand Name"
+  },
+  {
+   "fieldname": "cp_inc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CP Inc"
+  },
+  {
+   "fieldname": "cf_last_increase",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "CF Last Increase"
+  },
+  {
+   "fieldname": "cp_in_vac_desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CP IN VAC DESC"
+  },
+  {
+   "fieldname": "ticket_city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ticket City"
+  },
+  {
+   "fieldname": "last_dcsn_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Last DCSN Date"
+  },
+  {
+   "fieldname": "ekama_job_desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ekama Job DESC"
+  },
+  {
+   "fieldname": "cp_last_incrs_period",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CP Last Incrs Period"
+  },
+  {
+   "fieldname": "tickets_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tickets Number"
+  },
+  {
+   "fieldname": "contract_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contract Type"
+  },
+  {
+   "fieldname": "in_vac",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "In Vac"
+  },
+  {
+   "fieldname": "ekama_job_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "EKAMA Job Code"
+  },
+  {
+   "fieldname": "cf_work_period",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CF Work Period"
+  },
+  {
+   "fieldname": "has_ticket",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has Ticket",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "tickets_every",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tickets Every"
+  },
+  {
+   "fieldname": "tickets_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tickets Type"
+  },
+  {
+   "fieldname": "city_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City Code"
+  },
+  {
+   "fieldname": "tickets",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tickets"
+  },
+  {
+   "fieldname": "lst_dcsn",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LST DCSN"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 19:10:59.613071",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Sponsor Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

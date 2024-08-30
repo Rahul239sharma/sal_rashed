@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 21:47:51.726496",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "work_expiry_date",
+  "work_expiry_date_h",
+  "work_licence_number",
+  "column_break_vxqn",
+  "work_issue_date",
+  "work_issue_date_h",
+  "work_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "work_expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Work Expiry Date"
+  },
+  {
+   "fieldname": "work_expiry_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Work Expiry Date H"
+  },
+  {
+   "fieldname": "work_issue_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Work Issue Date"
+  },
+  {
+   "fieldname": "work_issue_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Work Issue Date H"
+  },
+  {
+   "fieldname": "work_licence_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Work Licence Number"
+  },
+  {
+   "fieldname": "column_break_vxqn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Work Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 13:32:50.466295",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Labour Office Employee Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

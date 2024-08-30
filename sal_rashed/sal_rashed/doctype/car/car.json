@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-21 21:43:48.961294",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "car_bord_no",
+  "car_end_card_date",
+  "car_end_card_date_h",
+  "car_model",
+  "column_break_haxo",
+  "car_end_date",
+  "car_end_date_h",
+  "car_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "car_bord_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Car Bord No"
+  },
+  {
+   "fieldname": "car_end_card_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Car End Card Date"
+  },
+  {
+   "fieldname": "car_end_card_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Car End Card Date H"
+  },
+  {
+   "fieldname": "car_end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Car End Date"
+  },
+  {
+   "fieldname": "column_break_haxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "car_end_date_h",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Car End Date H"
+  },
+  {
+   "fieldname": "car_model",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Car Model"
+  },
+  {
+   "fieldname": "car_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Car Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 13:28:14.625578",
+ "modified_by": "Administrator",
+ "module": "Sal Rashed",
+ "name": "Car",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
