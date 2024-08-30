@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sal_rashed *.css
+recursive-include sal_rashed *.csv
+recursive-include sal_rashed *.html
+recursive-include sal_rashed *.ico
+recursive-include sal_rashed *.js
+recursive-include sal_rashed *.json
+recursive-include sal_rashed *.md
+recursive-include sal_rashed *.png
+recursive-include sal_rashed *.py
+recursive-include sal_rashed *.svg
+recursive-include sal_rashed *.txt
+recursive-exclude sal_rashed *.pyc
